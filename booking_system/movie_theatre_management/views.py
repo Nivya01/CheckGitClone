@@ -17,7 +17,7 @@ class MovieViewset(viewsets.ModelViewSet):
     permission_classes = [IsAuthenticated, IsAdmin]
 
 
-class TheatreViewset(viewsets.ModelViewSet):
+class TheatreViewset(viewsets.ModelViewSet)
     queryset = Theatre.objects.all()
     serializer_class = TheatreSerializer
     permission_classes = [IsAuthenticated, IsAdmin]

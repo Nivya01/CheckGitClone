@@ -20,7 +20,7 @@ class ShowDetail(models.Model):
     show_date = models.DateField()
     show_time = models.TimeField()
 
-    def __str__ (self):
+    def __str__ (self)
         return f"Show {self.show_id} at {self.show_time.strftime('%I:%M %p')}"
             
 class Movie(models.Model):
